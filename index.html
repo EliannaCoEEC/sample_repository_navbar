@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <title>Bootstrap Styling - Navbar and Forms</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+     <div class="container-fluid">
+       <a href="index.html" class="navbar-brand">Logo</a>
+     <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+            <li class="nav-item"><a href="contact_us.html" class="nav-link">contact us</a></li>
+            <li class="nav-item"><a href="about_us.html" class="nav-link">about us</a></li>
+        </ul>
+        <form class="d-flex">
+            <input type="text" class="form-control me-2" placeholder="search">
+            <button class="btn btn-primary">search</button>
+        </form>
+     </div>
+    </nav>
+    <div class="container mt-3">
+    <form>
+        <div class="mb-3 mt-3">
+        <input type="textbox" placeholder="enter your name" class="form-control">
+        <input type="textbox" placeholder="enter your age" class="form-control">
+        </div>
+        <div class="mb-3 mt-3">
+            <label>Male</label><input type="radio" name="gender" class="form-check-input">
+            <label>Female</label><input type="radio" name="gender" class="form-check-input">
+   
+         <label>Favorite Food:</label>
+                <label>Katsu</label><input type="checkbox" class="form-check-input">
+                <label>Steak</label><input type="checkbox" class="form-check-input"></div><div class="mb-3 mt-3">
+           <label class="form-label">Birth Year:</label>
+                    <select class="form-select">
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                    </select></div>
+        <div class="form-check mb-3 mt-3">      
+            <textarea cols="25" rows="15"></textarea></div>
+            <div class="d-grid gap-3">
+            <button type="button" class="btn btn-outline-primary btn-block">collect</button>
+            <button type="button" class="btn btn-outline-danger btn-block">clear</button>
+        </div>
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label">Toggle on</label>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
